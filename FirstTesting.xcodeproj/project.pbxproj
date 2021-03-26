@@ -81,7 +81,6 @@
 		EF79E018260E3DA0001B410D = {
 			isa = PBXGroup;
 			children = (
-				EF79E057260E3DC3001B410D /* Hater.swift */,
 				EF79E023260E3DA0001B410D /* FirstTesting */,
 				EF79E03A260E3DA1001B410D /* FirstTestingTests */,
 				EF79E045260E3DA1001B410D /* FirstTestingUITests */,
@@ -102,13 +101,10 @@
 		EF79E023260E3DA0001B410D /* FirstTesting */ = {
 			isa = PBXGroup;
 			children = (
-				EF79E024260E3DA0001B410D /* AppDelegate.swift */,
-				EF79E026260E3DA0001B410D /* SceneDelegate.swift */,
-				EF79E028260E3DA0001B410D /* ViewController.swift */,
-				EF79E02A260E3DA0001B410D /* Main.storyboard */,
-				EF79E02D260E3DA1001B410D /* Assets.xcassets */,
-				EF79E02F260E3DA1001B410D /* LaunchScreen.storyboard */,
+				EF79E061260E53E7001B410D /* TestFiles */,
 				EF79E032260E3DA1001B410D /* Info.plist */,
+				EF79E060260E53CD001B410D /* Component */,
+				EF79E064260E540B001B410D /* Screens */,
 			);
 			path = FirstTesting;
 			sourceTree = "<group>";
@@ -129,6 +125,42 @@
 				EF79E048260E3DA1001B410D /* Info.plist */,
 			);
 			path = FirstTestingUITests;
+			sourceTree = "<group>";
+		};
+		EF79E060260E53CD001B410D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				EF79E02D260E3DA1001B410D /* Assets.xcassets */,
+				EF79E02F260E3DA1001B410D /* LaunchScreen.storyboard */,
+				EF79E02A260E3DA0001B410D /* Main.storyboard */,
+				EF79E026260E3DA0001B410D /* SceneDelegate.swift */,
+				EF79E024260E3DA0001B410D /* AppDelegate.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		EF79E061260E53E7001B410D /* TestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EF79E062260E53EF001B410D /* Model */,
+			);
+			path = TestFiles;
+			sourceTree = "<group>";
+		};
+		EF79E062260E53EF001B410D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF79E057260E3DC3001B410D /* Hater.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF79E064260E540B001B410D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EF79E028260E3DA0001B410D /* ViewController.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
