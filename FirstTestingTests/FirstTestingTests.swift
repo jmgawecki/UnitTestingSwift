@@ -9,13 +9,16 @@ import XCTest
 @testable import FirstTesting
 
 class FirstTestingTests: XCTestCase {
+    var hater: Hater!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        super.setUp()
+        hater = Hater()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        hater = nil
+        super.tearDown()
     }
 
     func testExample() throws {
@@ -28,6 +31,44 @@ class FirstTestingTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testHaterStartsNicely() {
+        //Arrange
+        hater = Hater()
+        
+        
+        //Act
+        
+        
+        //Assert
+        XCTAssertFalse(hater.hating)
+    }
+    
+    func testHaterHatesAfterBadDay() {
+        //Arrange
+        hater = Hater()
+        
+        
+        //Act
+        hater.hadABadDay()
+        
+        
+        //Assert
+        XCTAssertTrue(hater.hating)
+    }
+    
+    func testHaterHappyAfterGoodDay() {
+        //Arrange
+        hater = Hater()
+        
+        
+        //Act
+        hater.hadAGoodDay()
+        
+        
+        //Assert
+        XCTAssertFalse(hater.hating)
     }
 
 }

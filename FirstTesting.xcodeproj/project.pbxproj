@@ -15,6 +15,7 @@
 		EF79E031260E3DA1001B410D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF79E02F260E3DA1001B410D /* LaunchScreen.storyboard */; };
 		EF79E03C260E3DA1001B410D /* FirstTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E03B260E3DA1001B410D /* FirstTestingTests.swift */; };
 		EF79E047260E3DA1001B410D /* FirstTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E046260E3DA1001B410D /* FirstTestingUITests.swift */; };
+		EF79E058260E3DC3001B410D /* Hater.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E057260E3DC3001B410D /* Hater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EF79E042260E3DA1001B410D /* FirstTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF79E046260E3DA1001B410D /* FirstTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestingUITests.swift; sourceTree = "<group>"; };
 		EF79E048260E3DA1001B410D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF79E057260E3DC3001B410D /* Hater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		EF79E018260E3DA0001B410D = {
 			isa = PBXGroup;
 			children = (
+				EF79E057260E3DC3001B410D /* Hater.swift */,
 				EF79E023260E3DA0001B410D /* FirstTesting */,
 				EF79E03A260E3DA1001B410D /* FirstTestingTests */,
 				EF79E045260E3DA1001B410D /* FirstTestingUITests */,
@@ -260,6 +263,7 @@
 			files = (
 				EF79E029260E3DA0001B410D /* ViewController.swift in Sources */,
 				EF79E025260E3DA0001B410D /* AppDelegate.swift in Sources */,
+				EF79E058260E3DC3001B410D /* Hater.swift in Sources */,
 				EF79E027260E3DA0001B410D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
