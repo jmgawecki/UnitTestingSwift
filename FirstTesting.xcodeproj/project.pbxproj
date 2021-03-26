@@ -16,6 +16,8 @@
 		EF79E03C260E3DA1001B410D /* FirstTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E03B260E3DA1001B410D /* FirstTestingTests.swift */; };
 		EF79E047260E3DA1001B410D /* FirstTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E046260E3DA1001B410D /* FirstTestingUITests.swift */; };
 		EF79E058260E3DC3001B410D /* Hater.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E057260E3DC3001B410D /* Hater.swift */; };
+		EF79E06C260E5438001B410D /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E06B260E5438001B410D /* Converter.swift */; };
+		EF79E071260E547F001B410D /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E070260E547F001B410D /* ConverterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		EF79E046260E3DA1001B410D /* FirstTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestingUITests.swift; sourceTree = "<group>"; };
 		EF79E048260E3DA1001B410D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF79E057260E3DC3001B410D /* Hater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hater.swift; sourceTree = "<group>"; };
+		EF79E06B260E5438001B410D /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		EF79E070260E547F001B410D /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				EF79E062260E53EF001B410D /* Model */,
+				EF79E06B260E5438001B410D /* Converter.swift */,
+				EF79E070260E547F001B410D /* ConverterTests.swift */,
 			);
 			path = TestFiles;
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 				EF79E025260E3DA0001B410D /* AppDelegate.swift in Sources */,
 				EF79E058260E3DC3001B410D /* Hater.swift in Sources */,
 				EF79E027260E3DA0001B410D /* SceneDelegate.swift in Sources */,
+				EF79E06C260E5438001B410D /* Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF79E071260E547F001B410D /* ConverterTests.swift in Sources */,
 				EF79E03C260E3DA1001B410D /* FirstTestingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
