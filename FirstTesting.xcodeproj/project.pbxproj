@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF296532260F589100EF0834 /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF296531260F589100EF0834 /* ThrowingTests.swift */; };
+		EF29653A260F58BD00EF0834 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF296539260F58BD00EF0834 /* Game.swift */; };
 		EF79E025260E3DA0001B410D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E024260E3DA0001B410D /* AppDelegate.swift */; };
 		EF79E027260E3DA0001B410D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E026260E3DA0001B410D /* SceneDelegate.swift */; };
 		EF79E029260E3DA0001B410D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E028260E3DA0001B410D /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF296531260F589100EF0834 /* ThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTests.swift; sourceTree = "<group>"; };
+		EF296539260F58BD00EF0834 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		EF79E021260E3DA0001B410D /* FirstTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF79E024260E3DA0001B410D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF79E026260E3DA0001B410D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 				EF79E03B260E3DA1001B410D /* FirstTestingTests.swift */,
 				EF79E03D260E3DA1001B410D /* Info.plist */,
 				EF79E075260E6147001B410D /* LifecycleTests.swift */,
+				EF296531260F589100EF0834 /* ThrowingTests.swift */,
 			);
 			path = FirstTestingTests;
 			sourceTree = "<group>";
@@ -151,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				EF79E062260E53EF001B410D /* Model */,
-				EF79E06B260E5438001B410D /* Converter.swift */,
 			);
 			path = TestFiles;
 			sourceTree = "<group>";
@@ -159,7 +163,9 @@
 		EF79E062260E53EF001B410D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EF79E06B260E5438001B410D /* Converter.swift */,
 				EF79E057260E3DC3001B410D /* Hater.swift */,
+				EF296539260F58BD00EF0834 /* Game.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -303,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF79E029260E3DA0001B410D /* ViewController.swift in Sources */,
+				EF29653A260F58BD00EF0834 /* Game.swift in Sources */,
 				EF79E025260E3DA0001B410D /* AppDelegate.swift in Sources */,
 				EF79E058260E3DC3001B410D /* Hater.swift in Sources */,
 				EF79E027260E3DA0001B410D /* SceneDelegate.swift in Sources */,
@@ -317,6 +324,7 @@
 				EF79E071260E547F001B410D /* ConverterTests.swift in Sources */,
 				EF79E076260E6147001B410D /* LifecycleTests.swift in Sources */,
 				EF79E03C260E3DA1001B410D /* FirstTestingTests.swift in Sources */,
+				EF296532260F589100EF0834 /* ThrowingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
