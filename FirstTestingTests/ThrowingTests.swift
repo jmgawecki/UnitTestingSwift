@@ -82,4 +82,23 @@ class ThrowingTests: XCTestCase {
     }
  
     
+    /// That test will always throw an error as it fails when error exists. As we know, method play will throw an error where "Dead Storm Rising" String is assigned to name parameter. That error does not help when read from the console. We can modify it by adding an extension to LocalizedError. Extension find in FolderGroup Extension. Now when test run, description of the test will appear in a console.
+    func testDeadStormRisingThrows() throws {
+        // Arrange
+        let game = Game(name: "Dead Storm Rising")
+        
+        
+        // Act
+        try game.play()
+    }
+    
+    
+    func testCrashyPlaneDoesntThrow() throws {
+        // Arrange
+        let game = Game(name: "CrashyPlane")
+        
+        
+        // Act
+        try game.play()
+    }
 }

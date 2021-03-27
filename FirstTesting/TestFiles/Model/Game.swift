@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum GameError: Error {
+enum GameError: LocalizedError {
     case notPurchased
     case notInstalled
     case parentalControlsDisallowed
