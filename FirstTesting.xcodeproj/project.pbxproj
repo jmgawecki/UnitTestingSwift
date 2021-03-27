@@ -10,6 +10,8 @@
 		EF296532260F589100EF0834 /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF296531260F589100EF0834 /* ThrowingTests.swift */; };
 		EF29653A260F58BD00EF0834 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF296539260F58BD00EF0834 /* Game.swift */; };
 		EF296540260F5E8B00EF0834 /* LocalisedError+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29653F260F5E8B00EF0834 /* LocalisedError+Ext.swift */; };
+		EF29654E260F638300EF0834 /* AsynchronousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29654D260F638300EF0834 /* AsynchronousTests.swift */; };
+		EF29655A260F651600EF0834 /* PrimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF296559260F651600EF0834 /* PrimeCalculator.swift */; };
 		EF79E025260E3DA0001B410D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E024260E3DA0001B410D /* AppDelegate.swift */; };
 		EF79E027260E3DA0001B410D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E026260E3DA0001B410D /* SceneDelegate.swift */; };
 		EF79E029260E3DA0001B410D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79E028260E3DA0001B410D /* ViewController.swift */; };
@@ -25,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		EF296550260F638300EF0834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF79E019260E3DA0001B410D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF79E020260E3DA0001B410D;
+			remoteInfo = FirstTesting;
+		};
 		EF79E038260E3DA1001B410D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EF79E019260E3DA0001B410D /* Project object */;
@@ -45,6 +54,10 @@
 		EF296531260F589100EF0834 /* ThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTests.swift; sourceTree = "<group>"; };
 		EF296539260F58BD00EF0834 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		EF29653F260F5E8B00EF0834 /* LocalisedError+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalisedError+Ext.swift"; sourceTree = "<group>"; };
+		EF29654B260F638300EF0834 /* AsynchronousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsynchronousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF29654D260F638300EF0834 /* AsynchronousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousTests.swift; sourceTree = "<group>"; };
+		EF29654F260F638300EF0834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF296559260F651600EF0834 /* PrimeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCalculator.swift; sourceTree = "<group>"; };
 		EF79E021260E3DA0001B410D /* FirstTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF79E024260E3DA0001B410D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF79E026260E3DA0001B410D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +79,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EF296548260F638300EF0834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF79E01E260E3DA0001B410D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,12 +118,22 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		EF29654C260F638300EF0834 /* AsynchronousTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF29654D260F638300EF0834 /* AsynchronousTests.swift */,
+				EF29654F260F638300EF0834 /* Info.plist */,
+			);
+			path = AsynchronousTests;
+			sourceTree = "<group>";
+		};
 		EF79E018260E3DA0001B410D = {
 			isa = PBXGroup;
 			children = (
 				EF79E023260E3DA0001B410D /* FirstTesting */,
 				EF79E03A260E3DA1001B410D /* FirstTestingTests */,
 				EF79E045260E3DA1001B410D /* FirstTestingUITests */,
+				EF29654C260F638300EF0834 /* AsynchronousTests */,
 				EF79E022260E3DA0001B410D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +144,7 @@
 				EF79E021260E3DA0001B410D /* FirstTesting.app */,
 				EF79E037260E3DA1001B410D /* FirstTestingTests.xctest */,
 				EF79E042260E3DA1001B410D /* FirstTestingUITests.xctest */,
+				EF29654B260F638300EF0834 /* AsynchronousTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +208,7 @@
 				EF79E06B260E5438001B410D /* Converter.swift */,
 				EF79E057260E3DC3001B410D /* Hater.swift */,
 				EF296539260F58BD00EF0834 /* Game.swift */,
+				EF296559260F651600EF0834 /* PrimeCalculator.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,6 +224,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EF29654A260F638300EF0834 /* AsynchronousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF296552260F638300EF0834 /* Build configuration list for PBXNativeTarget "AsynchronousTests" */;
+			buildPhases = (
+				EF296547260F638300EF0834 /* Sources */,
+				EF296548260F638300EF0834 /* Frameworks */,
+				EF296549260F638300EF0834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF296551260F638300EF0834 /* PBXTargetDependency */,
+			);
+			name = AsynchronousTests;
+			productName = AsynchronousTests;
+			productReference = EF29654B260F638300EF0834 /* AsynchronousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EF79E020260E3DA0001B410D /* FirstTesting */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF79E04B260E3DA1001B410D /* Build configuration list for PBXNativeTarget "FirstTesting" */;
@@ -254,6 +304,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					EF29654A260F638300EF0834 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EF79E020260E3DA0001B410D;
+					};
 					EF79E020260E3DA0001B410D = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -283,11 +337,19 @@
 				EF79E020260E3DA0001B410D /* FirstTesting */,
 				EF79E036260E3DA1001B410D /* FirstTestingTests */,
 				EF79E041260E3DA1001B410D /* FirstTestingUITests */,
+				EF29654A260F638300EF0834 /* AsynchronousTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EF296549260F638300EF0834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF79E01F260E3DA0001B410D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,6 +377,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EF296547260F638300EF0834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF29654E260F638300EF0834 /* AsynchronousTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF79E01D260E3DA0001B410D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,6 +396,7 @@
 				EF79E058260E3DC3001B410D /* Hater.swift in Sources */,
 				EF79E027260E3DA0001B410D /* SceneDelegate.swift in Sources */,
 				EF79E06C260E5438001B410D /* Converter.swift in Sources */,
+				EF29655A260F651600EF0834 /* PrimeCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +422,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		EF296551260F638300EF0834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF79E020260E3DA0001B410D /* FirstTesting */;
+			targetProxy = EF296550260F638300EF0834 /* PBXContainerItemProxy */;
+		};
 		EF79E039260E3DA1001B410D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EF79E020260E3DA0001B410D /* FirstTesting */;
@@ -383,6 +459,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EF296553260F638300EF0834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HHDDYFD2W;
+				INFOPLIST_FILE = AsynchronousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jmg.AsynchronousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstTesting.app/FirstTesting";
+			};
+			name = Debug;
+		};
+		EF296554260F638300EF0834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HHDDYFD2W;
+				INFOPLIST_FILE = AsynchronousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jmg.AsynchronousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstTesting.app/FirstTesting";
+			};
+			name = Release;
+		};
 		EF79E049260E3DA1001B410D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -624,6 +740,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EF296552260F638300EF0834 /* Build configuration list for PBXNativeTarget "AsynchronousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF296553260F638300EF0834 /* Debug */,
+				EF296554260F638300EF0834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EF79E01C260E3DA0001B410D /* Build configuration list for PBXProject "FirstTesting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
